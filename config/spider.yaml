@@ -1,0 +1,11 @@
+history_file: 'data/history.json' # 历史记录文件
+save_interval: 1 # 每隔 `save_interval`个视频保存一次历史记录文件
+interval: 0 # 爬取两个视频之间的间隔
+log_path: 'data/log.txt' # 日志文件位置
+csv_path: 'data/train.csv' # 数据文件位置
+scoring_threshold: 12 # 只有弹幕数 > `scoring_threshold`的帧才会被考虑
+k_neighbor: 20 # 至多选取`k_neighbor`条弹幕
+confidence_threshold: 0.7 # 只有置信度 > `confidence_threshold`的检测目标才会被考虑
+sample_rate: 24 # 采样率: 每隔`sample_rate`帧处理一次
+clean_enabled: 10 # 若`clean_enabled` > 0, 每处理`clean_enabled`个视频会清空一次文件夹
+limit: -1 # 若`limit` > 0, 至多爬`limit`个视频后程序结束

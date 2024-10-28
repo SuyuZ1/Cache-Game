@@ -1,0 +1,8 @@
+batch_size: 512 # batch size
+csv_path: 'data/train.csv' # 数据集位置
+epoch: 150 # epoch
+lr: 0.001 # 学习率
+model_path: 'model/' # 模型文件保存位置
+criterion: 'MSE' # 损失函数, ['MSE']
+save_epoch: 5  # 每 SAVE_EPOCH 个 epoch 保存一次模型
+val_ratio: 0.2

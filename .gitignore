@@ -1,0 +1,8 @@
+*__pycache__*
+data/video/*
+data/xml/*
+data/train.csv
+data/history.json
+data/log.txt
+*.ipynb*
+demo/*.mp4
